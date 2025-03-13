@@ -1,5 +1,5 @@
 import React from "react";
-import CarbonFacial from "./[pages]/carbon-faical/page";
+import CarbonFacial from "./carbon-faical/page";
 
 function page() {
   CarbonFacial();
