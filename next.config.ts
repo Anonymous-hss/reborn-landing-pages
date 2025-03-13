@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "standalone", // Ensures full Next.js app works on Plesk
+  basePath: "", // Keep root paths clean
 };
 
-export default nextConfig;
+module.exports = nextConfig;
